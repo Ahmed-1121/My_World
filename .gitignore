@@ -1,0 +1,6 @@
+# ignore the node_modules folder
+node_modules/
+
+#ignore the _site folder
+# leave this commented out if you are using GitHub to submit the assignment
+# _site/
