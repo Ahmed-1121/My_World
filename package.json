@@ -1,10 +1,12 @@
 {
   "name": "11056-project2",
   "version": "1.0.0",
-  "description": "",
+  "description": "## 11056 Project 2 Starter",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "create": "--save-dev @11ty/eleventy",
+    "start": "eleventy --serve",
+    "build": "eleventy"
   },
   "keywords": [],
   "author": "",
@@ -12,9 +14,12 @@
   "devDependencies": {
     "@11ty/eleventy": "^1.0.1"
   },
-  "scripts": {
-    "create": "--save-dev @11ty/eleventy",
-    "start": "eleventy --serve",
-    "build": "eleventy"
-  }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ahmed-1121/Assignment_2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ahmed-1121/Assignment_2/issues"
+  },
+  "homepage": "https://github.com/Ahmed-1121/Assignment_2#readme"
 }
