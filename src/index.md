@@ -17,3 +17,25 @@ hero:
 ## I am your index.md file
 
 Any content you add to this markdown file will be displayed on the homepage 
+
+hgfnh
+
+
+
+
+## ngfnh
+ngn
+
+mjh
+
+![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
+
+cv:
+    title: "I am Ahmed"
+---
+
+hero:
+    title: "I am the hero title!"
+---
+    
+
