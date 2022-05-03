@@ -30,12 +30,11 @@ mjh
 
 ![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
 
+# more info
 cv:
     title: "I am Ahmed"
 ---
 
-hero:
-    title: "I am the hero title!"
----
+
     
 
