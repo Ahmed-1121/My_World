@@ -9,36 +9,28 @@ title: 11056 Project 2 Starter
 
 hero:
     title: "I am the hero title!"
+    
+    
+intro:
+    Hi: "My name is Ahmed" 
+    
+cv:
+    title: "I am the hero CV!"
+    image: "assets/images/My_project.png"
 ---
 
-intro:
-    Hi: "My name is Ahmed"
----
+
 
 # Hello!
 
 ## I am your index.md file
 
-Any content you add to this markdown file will be displayed on the homepage 
-
-hgfnh
 
 
+ksdhfvsdhvbs
+sdfbsdd
 
 
-## ngfnh
-ngn
-
-mjh
-
-![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
-
-# more info
----
-
-cv:
-    title: "I am the hero title!"
----
 
 
 
