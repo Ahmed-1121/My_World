@@ -11,6 +11,9 @@ hero:
     title: "I am the hero title!"
 ---
 
+intro:
+    Hi: "My name is Ahmed"
+---
 
 # Hello!
 

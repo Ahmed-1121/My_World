@@ -53,6 +53,15 @@ footer {
     border: 2px solid black;
 }
 
+.first_img{
+    border-radius: 50%;
+    width: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 main {
     margin-bottom: 2em;
 }
