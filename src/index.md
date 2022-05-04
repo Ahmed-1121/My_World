@@ -12,7 +12,7 @@ hero:
     
     
 intro:
-    Hi: "My name is Ahmed" 
+    education: "Education" 
     
 cv:
     title: "I am the hero CV!"

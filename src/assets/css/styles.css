@@ -5,17 +5,21 @@ body {
 }
 
 h1 {
-    font-size: 2em;
+    font-size: 2.5em;
     /* shorthand for TOP RIGHT BOTTOM LEFT */
     /* margin: 1em 0 1.5em 0; */
 }
 
 h2 {
-    font-size: 1.6em;
+    font-size: 2em;
 }
 
 h3 {
-    font-size: 1.4em;
+    font-size: 1.75em;
+}
+
+h4 {
+    font-size: 1.5em;
 }
 
 p {
@@ -63,7 +67,9 @@ footer {
 }
 
 .intro{
-    
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 4%;
 }
 
 .state{
@@ -71,16 +77,57 @@ footer {
     flex-direction: row;
     justify-content: center;
     justify-content: space-between;
-    padding-left: 180px;
-    padding-right: 180px;
+    padding-left: 140px;
+    padding-right: 140px;
+    text-align: center;
+    color: gray;
+    margin-left: 6% ;
+    /*margin-right: ;*/
     
+    
+}
+
+.state h3{
+    
+    margin-top: 10%;
+    margin-bottom: 10%;
+    
+    
+}
+
+.state div:hover{
+    color: black;
 }
 
 .vertical_line{
     border-left: 6px solid gray;
     border-radius: 8px;
-  height: 50px;
+  height: 180px;
+    margin-left: 2%;
+    margin-right: 2%
 }
+
+aside{
+    width: 40%;
+    height: 10%;
+    background-color: burlywood;
+    padding-top: 7.5%;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+aside a{
+    display: block;
+    justify-content: space-between;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 15%;
+    font-size: 1.5em;
+    text-decoration: none;
+    
+}
+
+
 
 
 main {
