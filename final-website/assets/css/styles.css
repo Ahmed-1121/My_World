@@ -107,13 +107,15 @@ footer {
     margin-right: 2%
 }
 
-aside{
+.aside{
     width: 40%;
     height: 10%;
     background-color: burlywood;
-    padding-top: 7.5%;
+    padding-top: 9%;
+    padding-bottom: 7%;
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
+    float: left;
 }
 
 aside a{
@@ -127,7 +129,25 @@ aside a{
     
 }
 
+.side_img{
+    /*margin-left: 40%;*/
+    float: right;
+    width: 60%;
+    height: 50%;
+    object-fit: scale-down;
+    
+}
 
+.img{
+    
+    
+    float: right;
+}
+
+
+.clear{
+    clear: both;
+}
 
 
 main {
