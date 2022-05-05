@@ -523,6 +523,13 @@ body
 
 /*contact card*/
 
+.card2_contain{
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
 .card2
 {
 	position: relative;
@@ -631,6 +638,7 @@ body
     text-align: center;
     margin-bottom: 3%;
     margin-top: 3%;
+    clear: both;
 }
 
 .container3 
@@ -845,6 +853,102 @@ body
     z-index: 12;
     border-radius: 6px 6px 0 0;
 }
+
+
+
+
+
+
+
+
+/*card for participations*/
+
+.container4_conntain{
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+.container4
+{
+	position: relative;
+	width: 1100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 30px 20px 10px;
+}
+.container4 .card4
+{
+	max-width: 300px;
+	height: 420px;
+	height: 215px;
+	background: #fff;
+	margin: 30px 10px;
+	padding: 20px 15px;
+	display: flex;
+	border-radius: 4px;
+	flex-direction: column;
+	box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+	transition: 0.3s ease-in-out;
+}
+
+.content4 h2{
+    font-size: 1.5em;
+}
+.content4 p{
+    font-size: 1em;
+}
+.container4 .card4:hover
+{
+	height: 420px;
+}
+.container4 .card4 .imgBx4
+{
+	position: relative;
+	background: #fff;
+	top: -60px;
+	left: 20px;
+    min-width: initial;
+    width: 260px;
+    height: 260px;
+	border-radius: 4px;
+	z-index: 1;
+	box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+.container4 .card4 .imgBx4 img
+{
+	max-width: 100%;
+	border-radius: 4px;
+    
+}
+.container4 .card4 .content4
+{
+	position: relative;
+	margin-top: -140px;
+	padding: 10px 15px;
+	text-align: center;
+	color: #111;
+	visibility: hidden;
+	opacity: 0;
+	transition: 0.3s ease-in-out;
+	transition-delay: 0s;
+}
+.container4 .card4:hover .content4
+{
+	visibility: visible;
+	opacity: 1;
+	margin-top: -40px;
+	transition-delay: 0.3s;
+}
+
+
+
+
+
+
+
 
 
 
