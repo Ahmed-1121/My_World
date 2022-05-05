@@ -15,11 +15,34 @@ layout: base
     
 </div>-->
 
+
+
+
+
+
+<!--the Clock-->
+<div class="clock">
+		<div class="hour">
+			<div class="hr" id="hr"></div>
+		</div>
+		<div class="min">
+			<div class="mn" id="mn"></div>
+		</div>
+		<div class="sec">
+			<div class="sc" id="sc"></div>
+		</div>
+	</div>
+	
+	
+
+
+<!--this code is for the first prsonal image including the hover effect-->
 <div class="container">
 		<div class="box">
 			<div class="content">
 				<img src="/assets/images/img.jpg">
-				<h2>Someone Famous<br><span>UX/UI Designer</span></h2>
+				<h2>{{ personal_image.name }}</h2>
+				<h2><span>{{ personal_image.career }}</span></h2>
 				<!--<a href="#">Hire me</a>-->
 			</div>
 		</div>
@@ -27,7 +50,7 @@ layout: base
 
 
 
-<div class="card">
+<!--<div class="card">
 		<span style="--i:0;"></span>
 		<span style="--i:1;"></span>
 		<span style="--i:2;"></span>
@@ -35,10 +58,10 @@ layout: base
 		<div class="glass">
 			<h2>Muhammad Irshad<br><i>+91 987 654 3210</i></h2>
 		</div>
-	</div>
+	</div>-->
 
 
-<div>
+<!--<div>
 
  <img class="first_img" src="/assets/images/My_project.png"/>
     
@@ -63,19 +86,23 @@ layout: base
     <div class="vertical_line"></div>
     <div>
         <h3>2022</h3>
-        <!--<h4>Graduate from <br/> Univercity of canberra</h4>-->
+        <h4>Graduate from <br/> Univercity of canberra</h4>
         <h4>Bachelor of<br/>Software Engineering</h4>
     </div>
-</div>
+</div>-->
 
 
 
-
+<!--this code is for skills star rating-->
 <div class="container2">
-		<h2>5 Star Skills Rating Bar</h2>
+        <!--the title -->
+		<h2>{{ skills.title }}</h2>
+		<!--the first skill-->
 		<div class="skills">
-			<h3 class="name">Html</h3>
+			<h3 class="name">{{ skills.first }}</h3>
+			<!--stars icon-->
 			<div class="rating">
+			    
 				<input type="radio" name="html">
 				<input type="radio" name="html">
 				<input type="radio" name="html">
@@ -88,8 +115,10 @@ layout: base
 				<input type="radio" name="html">
 			</div>
 		</div>
+		<!--the second skill-->
 		<div class="skills">
 			<h3 class="name">CSS</h3>
+			<!--stars icon-->
 			<div class="rating">
 				<input type="radio" name="css">
 				<input type="radio" name="css">
@@ -103,8 +132,10 @@ layout: base
 				<input type="radio" name="css">
 			</div>
 		</div>
+		<!--the third skill-->
 		<div class="skills">
 			<h3 class="name">Javascript</h3>
+			<!--stars icon-->
 			<div class="rating">
 				<input type="radio" name="js">
 				<input type="radio" name="js">
@@ -118,8 +149,10 @@ layout: base
 				<input type="radio" name="js">
 			</div>
 		</div>
+		<!--the fourth skill-->
 		<div class="skills">
 			<h3 class="name">Photoshop</h3>
+			<!--stars icon-->
 			<div class="rating">
 				<input type="radio" name="photoshop">
 				<input type="radio" name="photoshop">
@@ -133,8 +166,10 @@ layout: base
 				<input type="radio" name="photoshop">
 			</div>
 		</div>
+		<!--the fifth skill-->
 		<div class="skills">
 			<h3 class="name">Illustrator</h3>
+			<!--stars icon-->
 			<div class="rating">
 				<input type="radio" name="illustrator">
 				<input type="radio" name="illustrator">
@@ -150,9 +185,84 @@ layout: base
 		</div>
 		
 	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="container3">
+		<div class="card3">
+			<div class="icon">
+				<ion-icon name="barbell-outline"></ion-icon>
+			</div>
+			<div class="content3">
+				<h2>Card One</h2>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quaerat dicta quam? Aperiam quae porro earum, fuga quasi molestias voluptate, reprehenderit natus voluptatem, aliquid culpa ea mollitia quas corrupti aliquam.</p>
+			</div>
+		</div>
+		<div class="card3">
+			<div class="icon">
+				<ion-icon name="earth-outline"></ion-icon>
+			</div>
+			<div class="content3">
+				<h2>Card Two</h2>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quaerat dicta quam? Aperiam quae porro earum, fuga quasi molestias voluptate, reprehenderit natus voluptatem, aliquid culpa ea mollitia quas corrupti aliquam.</p>
+			</div>
+		</div>
+		<div class="card3">
+			<div class="icon">
+				<ion-icon name="rocket-outline"></ion-icon>
+			</div>
+			<div class="content3">
+				<h2>Card Three</h2>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quaerat dicta quam? Aperiam quae porro earum, fuga quasi molestias voluptate, reprehenderit natus voluptatem, aliquid culpa ea mollitia quas corrupti aliquam.</p>
+			</div>
+		</div>
+	</div>
+	
+	
+	
+	
+	
+	
+	
 
 
 
+
+
+
+<div class="card2">
+			<div class="content2">
+				<div class="imgBx">
+					<img src="/assets/images/profile.jpg">
+				</div>
+				<div class="details">
+					<div>
+						<h3>Ahmed Al Salmi</h3>
+					</div>
+					<div>
+						<ion-icon name="call-outline"></ion-icon>
+						<span><p>+61 421 964 998</p></span>
+					</div>
+					<div>
+						<ion-icon name="mail-outline"></ion-icon>
+						<span><p>onepiece.salmi@gmail.com</p></span>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+<script src="/assets/js/JavaScript.js"></script>
+
+<!--
 <h2 class="intro">Participations</h2>
 
 <div class="">
@@ -167,7 +277,7 @@ layout: base
     
     
     
-        <!--<img class="side_img" src="/assets/images/My_project.png" >-->
+        
     <div class="inline">
         <img class="side_img" src="/assets/images/My_project.png" width="" >
     </div>
@@ -195,7 +305,7 @@ layout: base
 
 </div>
 
-
+-->
 
 
 <!--<div class="cv_title">
