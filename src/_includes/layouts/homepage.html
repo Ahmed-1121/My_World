@@ -21,17 +21,7 @@ layout: base
 
 
 <!--the Clock-->
-<div class="clock">
-		<div class="hour">
-			<div class="hr" id="hr"></div>
-		</div>
-		<div class="min">
-			<div class="mn" id="mn"></div>
-		</div>
-		<div class="sec">
-			<div class="sc" id="sc"></div>
-		</div>
-	</div>
+
 	
 	
 
@@ -40,7 +30,7 @@ layout: base
 <div class="container">
 		<div class="box">
 			<div class="content">
-				<img src="/assets/images/img.jpg">
+				<img src="/assets/images/profile2.JPG">
 				<h2>{{ personal_image.name }}</h2>
 				<h2><span>{{ personal_image.career }}</span></h2>
 				<!--<a href="#">Hire me</a>-->
@@ -117,7 +107,7 @@ layout: base
 		</div>
 		<!--the second skill-->
 		<div class="skills">
-			<h3 class="name">CSS</h3>
+			<h3 class="name">{{ skills.second }}</h3>
 			<!--stars icon-->
 			<div class="rating">
 				<input type="radio" name="css">
@@ -128,20 +118,15 @@ layout: base
 				<input type="radio" name="css">
 				<input type="radio" name="css">
 				<input type="radio" name="css">
-				<input type="radio" name="css">
-				<input type="radio" name="css">
+				
 			</div>
 		</div>
 		<!--the third skill-->
 		<div class="skills">
-			<h3 class="name">Javascript</h3>
+			<h3 class="name">{{ skills.third }}</h3>
 			<!--stars icon-->
 			<div class="rating">
-				<input type="radio" name="js">
-				<input type="radio" name="js">
-				<input type="radio" name="js">
-				<input type="radio" name="js">
-				<input type="radio" name="js">
+				<input class="black2" type="radio" name="js">
 				<input type="radio" name="js">
 				<input type="radio" name="js">
 				<input type="radio" name="js">
@@ -151,36 +136,26 @@ layout: base
 		</div>
 		<!--the fourth skill-->
 		<div class="skills">
-			<h3 class="name">Photoshop</h3>
+			<h3 class="name">{{ skills.fourth }}</h3>
 			<!--stars icon-->
 			<div class="rating">
 				<input type="radio" name="photoshop">
 				<input type="radio" name="photoshop">
 				<input type="radio" name="photoshop">
 				<input type="radio" name="photoshop">
-				<input type="radio" name="photoshop">
-				<input type="radio" name="photoshop">
-				<input type="radio" name="photoshop">
-				<input type="radio" name="photoshop">
-				<input type="radio" name="photoshop">
-				<input type="radio" name="photoshop">
+				
+				
 			</div>
 		</div>
 		<!--the fifth skill-->
 		<div class="skills">
-			<h3 class="name">Illustrator</h3>
+			<h3 class="name">{{ skills.fifth }}</h3>
 			<!--stars icon-->
 			<div class="rating">
 				<input type="radio" name="illustrator">
 				<input type="radio" name="illustrator">
-				<input type="radio" name="illustrator">
-				<input type="radio" name="illustrator">
-				<input type="radio" name="illustrator">
-				<input type="radio" name="illustrator">
-				<input type="radio" name="illustrator">
-				<input type="radio" name="illustrator">
-				<input type="radio" name="illustrator">
-				<input type="radio" name="illustrator">
+				
+			
 			</div>
 		</div>
 		
@@ -192,15 +167,16 @@ layout: base
 	
 	
 	
-	
+	<h2 class="sub_title">{{ my_hobbies.title }}</h2>
 	<div class="container3">
+	
 		<div class="card3">
 			<div class="icon">
 				<ion-icon name="barbell-outline"></ion-icon>
 			</div>
 			<div class="content3">
-				<h2>Card One</h2>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quaerat dicta quam? Aperiam quae porro earum, fuga quasi molestias voluptate, reprehenderit natus voluptatem, aliquid culpa ea mollitia quas corrupti aliquam.</p>
+				<h2>{{ my_hobbies.title1 }}</h2>
+				<p>{{ my_hobbies.content1 }}</p>
 			</div>
 		</div>
 		<div class="card3">
@@ -208,17 +184,17 @@ layout: base
 				<ion-icon name="earth-outline"></ion-icon>
 			</div>
 			<div class="content3">
-				<h2>Card Two</h2>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quaerat dicta quam? Aperiam quae porro earum, fuga quasi molestias voluptate, reprehenderit natus voluptatem, aliquid culpa ea mollitia quas corrupti aliquam.</p>
+				<h2>{{ my_hobbies.title2 }}</h2>
+				<p>{{ my_hobbies.content2 }}</p>
 			</div>
 		</div>
 		<div class="card3">
 			<div class="icon">
-				<ion-icon name="rocket-outline"></ion-icon>
+				<ion-icon name="desktop-outline"></ion-icon>
 			</div>
 			<div class="content3">
-				<h2>Card Three</h2>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quaerat dicta quam? Aperiam quae porro earum, fuga quasi molestias voluptate, reprehenderit natus voluptatem, aliquid culpa ea mollitia quas corrupti aliquam.</p>
+				<h2>{{ my_hobbies.title3 }}</h2>
+				<p>{{ my_hobbies.content3 }}</p>
 			</div>
 		</div>
 	</div>
@@ -234,7 +210,7 @@ layout: base
 
 
 
-
+<h2 class="sub_title">{{ contact.title }}</h2>
 <div class="card2">
 			<div class="content2">
 				<div class="imgBx">
@@ -242,15 +218,15 @@ layout: base
 				</div>
 				<div class="details">
 					<div>
-						<h3>Ahmed Al Salmi</h3>
+						<h3>{{ contact.name }}</h3>
 					</div>
 					<div>
 						<ion-icon name="call-outline"></ion-icon>
-						<span><p>+61 421 964 998</p></span>
+						<span><p>{{ contact.phone }}</p></span>
 					</div>
 					<div>
 						<ion-icon name="mail-outline"></ion-icon>
-						<span><p>onepiece.salmi@gmail.com</p></span>
+						<span><p>{{ contact.email }}</p></span>
 					</div>
 				</div>
 			</div>

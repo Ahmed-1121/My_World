@@ -30,10 +30,14 @@ p {
 }
 
 .inner-wrapper {
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
 }
 
+.main_title{
+    
+    float: left;
+}
 header,
 footer {
     background-color: #777999;
@@ -184,7 +188,7 @@ main {
     margin-right: auto;
     margin-left: auto;
     
-    
+    clear: both;
 }
 .box
 {
@@ -408,7 +412,10 @@ body
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+    margin-top: 7%;
+    margin-bottom: 7%;
 	padding: 30px;
+    background-color: lightgray;
 	border-radius: 10px;
   box-shadow: -1px -1px 2px rgba(255,255,255,0.25),
               inset 2px 2px 5px rgba(255,255,255,0.25),
@@ -427,6 +434,7 @@ body
 	display: flex;
 	justify-content: center;
 	align-items: center;
+    background-color: white;
 	margin: 10px 0;
 	border-radius: 10px;
 	padding-right: 10px;
@@ -449,7 +457,7 @@ body
 .skills h3
 {
 	min-width: 180px;
-	text-align: right;
+	text-align: center;
 	padding-right: 20px;
 	/*color: #fff;*/
     
@@ -462,6 +470,7 @@ body
 	position: relative;
 	display: flex;
 	margin: 10px 0;
+    
 	flex-direction: row-reverse;
 }
 .rating input
@@ -477,6 +486,8 @@ body
 	-webkit-appearance: none;
 	appearance: none;
 }
+
+
 .rating input::before
 {
 	content: '\f005';
@@ -484,23 +495,26 @@ body
 	font-size: 34px;
 	position: absolute;
 	left: 4px;
-	color: #030b0f;
+	color: #1f9cff;
 	transition: 0.5s;
 }
+
 
 .rating input:nth-child(2n + 1)::before
 {
 	right: 4px;
 	left: initial;
 }
-
-.rating input:hover ~ input::before,
-.rating input:hover::before,
-.rating input:checked ~ input::before,
-.rating input:checked::before
-{
-	color: #1f9cff;
+.black2::before{
+    color: #030b0f;
 }
+
+.black2::after{
+    color: #030b0f;
+}
+
+
+
 
 
 
@@ -529,7 +543,7 @@ body
 	align-items: center;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10%;
+    margin-top: 5%;
 	z-index: 10;
 	transition: 1s;
     
@@ -613,6 +627,12 @@ body
 /*card3*/
 
 
+.sub_title{
+    text-align: center;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
 .container3 
 {
 	display: flex;
@@ -620,6 +640,8 @@ body
 	align-items: center;
 	flex-wrap: wrap;
 }
+
+
 .card3
 {
 	position: relative;
@@ -734,12 +756,17 @@ body
 
 /*clock*/
 
+
+
 .clock
 {
-    width: 350px;
-    height: 350px;
+    width: 150px;
+    height: 150px;
     display: flex;
     justify-content: center;
+    margin-right: 0%;
+    margin-left: 60%;
+    float: right;
     align-items: center;
     background: #091921 url(/assets/images/clock.png);
     background-size: cover;
@@ -768,18 +795,18 @@ body
 }
 .hour, .hr
 {
-    width: 160px;
-    height: 160px;
+    width: 60px;
+    height: 60px;
 }
 .min, .mn
 {
-    width: 190px;
-    height: 190px;
+    width: 90px;
+    height: 90px;
 }
 .sec, .sc
 {
-    width: 230px;
-    height: 230px;
+    width: 100px;
+    height: 100px;
 }
 .hr,.mn,.sc
 {
@@ -803,7 +830,7 @@ body
     content: '';
     position: absolute;
     width: 4px;
-    height: 90px;
+    height: 60px;
     background: #ffffff;
     z-index: 11;
     border-radius: 6px 6px 0 0;
@@ -813,7 +840,7 @@ body
     content: '';
     position: absolute;
     width: 2px;
-    height: 150px;
+    height: 50px;
     background: #008eff;
     z-index: 12;
     border-radius: 6px 6px 0 0;
