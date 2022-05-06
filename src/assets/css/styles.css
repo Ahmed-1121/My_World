@@ -1,6 +1,7 @@
 body {
     font-size: 16px;
     background-color: #f4f4f4;
+    
     font-family: sans-serif;
     
 }
@@ -254,13 +255,13 @@ main {
 	inset: -10px 140px;
 	transition: 0.5s;
 	background: linear-gradient(315deg,#00ccff,#d400d4);
-	animation: animate 4s linear infinite
+	animation: animateA 4s linear infinite
 }
 .box:hover:before
 {
 	inset: -20px 0px;
 }
-@keyframes animate 
+@keyframes animateA 
 {
 	0%
 	{
@@ -616,7 +617,7 @@ body
 	bottom: 0;
 	width: 100%;
 	height: 80px;
-	background: #7729ee;
+	/*background: #7729ee;8*/
 	opacity: 0.75;
 }
 .content2 
@@ -624,7 +625,8 @@ body
 	display: flex;
 	align-items: center;
 	gap: 40px;
-	margin-top: -80px;
+	margin-top: auto;
+    margin-bottom: auto;
 }
 .content2 .imgBx
 {
@@ -672,7 +674,7 @@ body
     
 }
 
-.details span p
+.details  p
 {
 	color: #111;
     font-size: 1em;
@@ -1231,6 +1233,8 @@ container5_contain{
     
     header{
         
+        padding-top: 7%;
+        padding-bottom: 7%;
     }
     
     .sub_title2{
@@ -1241,6 +1245,7 @@ container5_contain{
     
     .header_left{
         float: none;
+        justify-content: center;
     }
     
     .circle
