@@ -13,6 +13,7 @@ hero:
     title: "I am the hero title!"
     
 personal_image:
+    title: "Hi, hover or click on me to know my career"
     name: "Ahmed Al Salmi"
     career: "Software Engineer"
     

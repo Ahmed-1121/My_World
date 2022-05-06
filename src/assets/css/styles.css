@@ -406,6 +406,7 @@ body
   background: #0a2b3c;
 }
 */
+
 .container2
 {
 	display: flex;
@@ -527,7 +528,7 @@ body
     display: flex;
 	justify-content: center;
 	align-items: center;
-	min-height: 100vh;
+	
 }
 
 .card2
@@ -553,7 +554,8 @@ body
     margin-top: 5%;
 	z-index: 10;
 	transition: 1s;
-    
+    margin-top: 7%;
+    margin-bottom: 7%;
 }
 .card2:hover 
 {
@@ -867,7 +869,7 @@ body
     display: flex;
 	justify-content: center;
 	align-items: center;
-	min-height: 100vh;
+	
 }
 .container4
 {
@@ -878,6 +880,8 @@ body
 	align-items: center;
 	flex-wrap: wrap;
 	padding: 30px 20px 10px;
+    margin-top: 7%;
+    margin-top: 7%;
 }
 .container4 .card4
 {
@@ -941,6 +945,29 @@ body
 	opacity: 1;
 	margin-top: -40px;
 	transition-delay: 0.3s;
+}
+
+
+@media only screen and (max-width: 480px) {
+    /* This CSS will be applied only to phones and other small devices. */
+    
+    inner-wrapper{
+        width: 90%;
+        margin: 0;
+    }
+    
+    
+    
+    
+    .container {
+        width: 250px;
+        height: 250px;
+    }
+    
+    .content{
+        border: 2px solid #070a1c;
+    }
+    
 }
 
 
