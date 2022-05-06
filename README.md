@@ -20,13 +20,23 @@ Then I wanted to attract the user’s attention, so I did not give him my name a
 
 Then I displayed my skills and their value with stars from the highest skill to the lowest skill, and when pressing or moving the arrow on one of the skills it becomes a little bigger and a blurry effect appears on the rest of the skills.
 
+![image](/src/assets/images/shot3.png)
+
 Then I showed some of the events in which I participated and put an attractive and elegantly coordinated picture on it. I did not put any details or words directly, but I wanted to arouse the user's curiosity, so I hid the details under the picture and the user had to click on it to discover more about the event.
+
+![image](/src/assets/images/shot4.png)
 
 Then I elegantly display my hobbies and try to use an attractive, fun design (because that's what hobbies are expected to be fun). The title and icon for each hobby explain themselves, and I added small details to the explanation.
 
+![image](/src/assets/images/shot5.png)
+
 Then I presented the ways to communicate with me in the form of an attractive business card. If the user clicks on it, it will grow a little and interact with him.
 
+![image](/src/assets/images/shot6.png)
+
 I would like to point out that the site is fully responsive to all sizes of smart devices.
+
+![image](/src/assets/images/shot7.png)
 
 
 ## Things that can be improved
