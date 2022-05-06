@@ -16,6 +16,8 @@ Initially, when you open the site, the first thing you will see is the infinity 
 
 Then I wanted to attract the user’s attention, so I did not give him my name and profession directly, but rather I wanted to arouse his curiosity to interact with the site and place the mouse on my picture to know more about me. The circle of colors that revolve around the image immediately attracts attention.
 
+![image](/src/assets/images/shot2.png)
+
 Then I displayed my skills and their value with stars from the highest skill to the lowest skill, and when pressing or moving the arrow on one of the skills it becomes a little bigger and a blurry effect appears on the rest of the skills.
 
 Then I showed some of the events in which I participated and put an attractive and elegantly coordinated picture on it. I did not put any details or words directly, but I wanted to arouse the user's curiosity, so I hid the details under the picture and the user had to click on it to discover more about the event.
