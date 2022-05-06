@@ -55,6 +55,12 @@ p {
     clear: both;
 }
 
+.sub_title2{
+        margin-top: 3%;
+        margin-bottom: 3%;
+        text-align: center;
+    }
+
 .margin3{
     margin-top: 3%;
 }
@@ -1082,6 +1088,122 @@ container5_contain{
 }
 
 
+@media only screen and (min-width: 481px) and (max-width: 960px) {
+    
+    .circle
+    {
+      position: relative;
+      width: 70px;
+      height: 70px;
+      margin: 0 -7.5px;
+    }
+    
+    header{
+    background-color: black;
+    width: 100%;
+    height: 13%;
+    padding-bottom: 14%;
+    padding-top: 5%;
+    
+    }
+    /*clock tablet*/
+    .clock
+    {
+        width: 80px;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        /*margin-right: 0%;
+        margin-left: 60%;*/
+        float: right;
+        align-items: center;
+        background: #FFFFFF url(/assets/images/clock.png);
+        background-size: cover;
+        border-radius: 50%;
+        border: 4px solid white;
+        box-shadow: 0 -15px 15px rgba(255,255,255,0.05),
+                    0 20px 20px rgba(0,0,0,0.3),
+                    inset 0 -15px 15px rgba(255,255,255,0.05),
+                    inset 0 20px 20px rgba(0,0,0,0.3);
+    }
+    .clock::before
+    {
+        content: '';
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        background: #fff;
+        z-index: 100000;
+        border-radius: 50%;
+    }
+    .hour,
+    .min,
+    .sec
+    {
+        position: absolute;
+    }
+    .hour, .hr
+    {
+        width: 40px;
+        height: 40px;
+    }
+    .min, .mn
+    {
+        width: 70px;
+        height: 70px;
+    }
+    .sec, .sc
+    {
+        width: 65px;
+        height: 65px;
+    }
+    .hr,.mn,.sc
+    {
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        border-radius: 50%;
+    }
+    .hr::before
+    {
+        content: '';
+        position: absolute;
+        width: 6px;
+        height: 50px;
+        background: #ff105e;
+        z-index: 10;
+        border-radius: 6px 6px 0 0;
+    }
+    .mn::before
+    {
+        content: '';
+        position: absolute;
+        width: 4px;
+        height: 40px;
+        background: black;
+        z-index: 11;
+        border-radius: 6px 6px 0 0;
+    }
+    .sc::before
+    {
+        content: '';
+        position: absolute;
+        width: 2px;
+        height: 40px;
+        background: #008eff;
+        z-index: 12;
+        border-radius: 6px 6px 0 0;
+    }
+    
+    /*hobbies cards*/
+    .card3{
+        margin: 23px;
+    }
+
+
+}
+
+
 
 @media only screen and (max-width: 480px) {
     /* This CSS will be applied only to phones and other small devices. */
@@ -1109,6 +1231,12 @@ container5_contain{
     
     header{
         
+    }
+    
+    .sub_title2{
+        margin-top: 3%;
+        margin-bottom: 3%;
+        text-align: center;
     }
     
     .header_left{
