@@ -12,7 +12,7 @@ When designing the web page, my focus was on interactive, fun and attractive to 
 ## Overview
 Initially, when you open the site, the first thing you will see is the infinity sign that moves constantly and changes colors, as well as the clock, which moving all the time. It took a lot of time to design these details but I think it was well worth it.
 
-![image](/assets/images/shot1.png)
+![image](/src/assets/images/shot1.png)
 
 Then I wanted to attract the user’s attention, so I did not give him my name and profession directly, but rather I wanted to arouse his curiosity to interact with the site and place the mouse on my picture to know more about me. The circle of colors that revolve around the image immediately attracts attention.
 
