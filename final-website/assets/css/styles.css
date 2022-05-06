@@ -35,13 +35,52 @@ p {
 }
 
 .main_title{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 40px;
+    color: white;
+}
+
+.header_left{
     
     float: left;
+    display: flex;
+    
 }
+
+.first_title{
+    text-align: center;
+    margin-bottom: 6%;
+    margin-top: 6%;
+    clear: both;
+}
+
+.margin3{
+    margin-top: 3%;
+}
+
 header,
 footer {
     background-color: #777999;
-    padding: 2em 0;
+    /*padding: 2em 0;*/
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    height: 13%;
+    padding-bottom: 10%;
+    padding-top: 2%;
+    color: white;
+}
+
+header{
+    background-color: black;
+    width: 100%;
+    height: 13%;
+    padding-bottom: 10%;
+    padding-top: 2%;
+    
 }
 
 
@@ -537,11 +576,11 @@ body
 	width: 500px;
 	border-top: 1px solid rgba(255,255,255,0.5);
 	height: 300px;
-	/*background: rgba(255,255,255,0.1);*/
-    /*background: url(/assets/images/bg.jpg);
+	background: rgba(255,255,255,0.1);
+    background: url(/assets/images/bg.jpg);
     background-size: cover;
 	background-position: center;
-    */
+    
 	backdrop-filter: blur(10px);
 	border-radius: 20px;
 	overflow: hidden;
@@ -551,16 +590,18 @@ body
 	align-items: center;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 5%;
+    
 	z-index: 10;
 	transition: 1s;
-    margin-top: 7%;
-    margin-bottom: 7%;
+    
 }
 .card2:hover 
 {
 	transform: scale(1.2);
 	background: rgba(255,255,255,0.2);
+    background: url(/assets/images/bg.jpg);
+    background-size: cover;
+	background-position: center;
 }
 .card2::before 
 {
@@ -638,10 +679,11 @@ body
 
 .sub_title{
     text-align: center;
-    margin-bottom: 3%;
-    margin-top: 3%;
+    margin-bottom: 7%;
+    margin-top: 7%;
     clear: both;
 }
+
 
 .container3 
 {
@@ -770,18 +812,18 @@ body
 
 .clock
 {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     display: flex;
     justify-content: center;
-    margin-right: 0%;
-    margin-left: 60%;
+    /*margin-right: 0%;
+    margin-left: 60%;*/
     float: right;
     align-items: center;
-    background: #091921 url(/assets/images/clock.png);
+    background: #FFFFFF url(/assets/images/clock.png);
     background-size: cover;
     border-radius: 50%;
-    border: 4px solid #091921;
+    border: 4px solid white;
     box-shadow: 0 -15px 15px rgba(255,255,255,0.05),
                 0 20px 20px rgba(0,0,0,0.3),
                 inset 0 -15px 15px rgba(255,255,255,0.05),
@@ -805,18 +847,18 @@ body
 }
 .hour, .hr
 {
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
 }
 .min, .mn
 {
-    width: 90px;
-    height: 90px;
+    width: 80px;
+    height: 80px;
 }
 .sec, .sc
 {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
 }
 .hr,.mn,.sc
 {
@@ -829,8 +871,8 @@ body
 {
     content: '';
     position: absolute;
-    width: 8px;
-    height: 80px;
+    width: 6px;
+    height: 50px;
     background: #ff105e;
     z-index: 10;
     border-radius: 6px 6px 0 0;
@@ -840,8 +882,8 @@ body
     content: '';
     position: absolute;
     width: 4px;
-    height: 60px;
-    background: #ffffff;
+    height: 50px;
+    background: black;
     z-index: 11;
     border-radius: 6px 6px 0 0;
 }
@@ -880,8 +922,7 @@ body
 	align-items: center;
 	flex-wrap: wrap;
 	padding: 30px 20px 10px;
-    margin-top: 7%;
-    margin-top: 7%;
+    
 }
 .container4 .card4
 {
@@ -948,6 +989,100 @@ body
 }
 
 
+
+/*infinity circle css*/
+
+section
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  
+  /*background: #042104;*/
+  animation: animateBg 8s linear infinite;
+}
+@keyframes animateBg
+{
+  0%
+  {
+    filter: hue-rotate(0deg);
+  }
+  100%
+  {
+    filter: hue-rotate(360deg);
+  }
+}
+
+
+
+.container5 
+{
+  display: flex;
+}
+
+container5_contain{
+    box-sizing: border-box;
+    
+}
+.circle
+{
+  position: relative;
+  width: 90px;
+  height: 90px;
+  margin: 0 -7.5px;
+}
+.circle span
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: rotate(calc(18deg * var(--i)));
+}
+.circle span:before
+{
+  content: '';
+  position: absolute;
+  top: calc(50% - 7.5px);
+  right: 0;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  transform: scale(0.1);
+  background: #00ff0a;
+  box-shadow: 0 0 10px #00ff0a,
+              0 0 20px #00ff0a,
+              0 0 40px #00ff0a,
+              0 0 60px #00ff0a,
+              0 0 80px #00ff0a,
+              0 0 100px #00ff0a;
+  animation: animate 4s linear infinite;
+  animation-delay: calc(0.1s * var(--i));
+}
+@keyframes animate
+{
+  0%
+  {
+    transform: scale(1);
+  }
+  50%,100%
+  {
+    transform: scale(0.1);
+  }
+}
+.circle:nth-child(2)
+{
+  transform: rotate(-180deg);
+}
+.circle:nth-child(2) span:before
+{
+  animation-delay: calc(-0.1s * var(--i));
+}
+
+
+
 @media only screen and (max-width: 480px) {
     /* This CSS will be applied only to phones and other small devices. */
     
@@ -968,7 +1103,78 @@ body
         border: 2px solid #070a1c;
     }
     
+    .clock_position{
+        display: none;
+    }
+    
+    header{
+        
+    }
+    
+    .header_left{
+        float: none;
+    }
+    
+    .circle
+    {
+      position: relative;
+      width: 70px;
+      height: 70px;
+      margin: 0 -7.5px;
+    }
+    
+    .skills h3
+    {
+	min-width: 110px;
+	text-align: left;
+	padding-right: 20px;
+	/*color: #fff;*/
+    margin-left: 5px;
+	font-size: 20px;
+	font-weight: 400;
+	letter-spacing: 2px;
+    }
+    
+    
+    .content2 .imgBx
+    {
+	position: relative;
+	width: 120px;
+	height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+	overflow: hidden;
+	border-radius: 50%;
+	box-shadow: 0 0 0 10px rgba(255,255,255,0.1);
+    }
+    .content2{
+        display: block;
+        
+    }
+    
+    .details div 
+        {
+	display: flex;
+	align-items: center;
+    justify-content: center;
+	gap: 10px;
+    }
+    .sub_title{
+        margin-top: 11%;
+        margin-bottom: 11%;
+    }
+    .card2_contain{
+        
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
 }
+
+
+
 
 
 

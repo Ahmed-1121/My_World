@@ -3,7 +3,7 @@
 layout: layouts/homepage
 
 # set the page title
-title: " Ahmed CV"
+title: "My World"
 
 
 
@@ -41,6 +41,7 @@ my_hobbies:
     
 participations:
     title: "Participations"
+    sub_title: "Click on pictures to know more about the events"
     title1: "UAE 2013"
     content1: "I participated in Expo-Sciences International which was held in Abu Dhabi in 2013."
     title2: "Belgium 2015"
